@@ -17,7 +17,6 @@
 8. The customer chooses the delivery method.
 9. The customer pays for the order.
 10. The system processes the order and notifies the customer of the order status.
-11. The cart is emptied upon a successful order.
 
 ## 3. Alternative Flows
 | No. | Location | Condition | Action | Resume Location |
@@ -29,3 +28,5 @@
 | 5 | 3 | The customer wants to remove products from the cart. | The customer selects the remove product option. | 3 |
 | 6 | 7 | If the inventory quantity is insufficient. | The system displays the inventory quantity for each unmet product and requests customers to update the cart. | 6 |
 | 7 | 9 | The customer chooses to pay via VNPay. | VNPay requires customers to provide the necessary information. | 9 |
+| 8 | 8 | The customer chooses the rush order delivery but no products are eligible or the delivery address doesn't support rush order delivery | The software prompts user to update delivery information or delivery method | 8
+| 9 | 8 | The customer adjusts the delivery method or the items they wish to purchase | The software recalculates the delivery fees and update the corresponding invoice | 6
