@@ -1,2 +1,7 @@
 Nguyen Tieu Phuong 20210692
 Here is the link to my Figma:
+https://www.figma.com/file/NCLPYWvx5sdVtl7og0pTmI/AIMS?type=design&node-id=13%3A3&mode=design&t=18TjJWkoltEKWcLo-1
+
+---Notes---
+On the Figma design, navigate to the Figma icon on the top left. Choose "Design" page to see the design.
+Navigate to the Play button in the top right to start the screen transition prototype.
