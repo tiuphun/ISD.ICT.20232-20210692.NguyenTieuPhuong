@@ -1,3 +1,4 @@
+package src;
 public class InvoiceScreen {
 
 	public void InvoiceScreen(Invoice invoice) {

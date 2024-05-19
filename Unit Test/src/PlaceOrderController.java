@@ -1,3 +1,4 @@
+package src;
 public class PlaceOrderController {
 
 	public float calculateShippingFee() {

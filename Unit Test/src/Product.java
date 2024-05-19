@@ -1,3 +1,4 @@
+package src;
 public class Product {
 
 	public boolean checkProductForRushOrder() {
